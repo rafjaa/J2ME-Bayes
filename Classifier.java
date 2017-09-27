@@ -1,6 +1,6 @@
 /** J2ME-Bayes
  *
- * Copyright 2010 Rafael Alencar  rafjaa at gmail.com
+ * Rafael Alencar  rafjaa at gmail.com
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
