@@ -9,6 +9,7 @@ J2ME-Bayes is a general purpose Naive Bayes Classifier to the Java Micro Edition
 Simple example
 --------------
 
+<pre>
 Classifier classifier = new Classifier();
 
 classifier.train("the and is if on in at a i you he she it we they", "English");
@@ -17,5 +18,7 @@ classifier.train("ein eine ich er sie der die das der wir und dieser", "German")
 classifier.train("a e o ou se no na eu um uma eu ele ela voce isso isto", "Portuguese");
 classifier.train("que ella y el las de la uno una en esta", "Spanish");
 
-//Classify a Portuguese phrase which quotes an English sentence.
-classifier.classify("Se eu disser - 'The book is on the table.' - eu estarei falando uma frase muito batida em Inglês."); //returns "Portuguese"
+/* Classify a Portuguese phrase which quotes an English sentence */
+classifier.classify("Se eu disser - 'The book is on the table.' - eu estarei falando uma frase muito comum em Inglês.");
+// returns "Portuguese"
+</pre>
